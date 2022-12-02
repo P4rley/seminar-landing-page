@@ -4,7 +4,6 @@ import "@splidejs/react-splide/css";
 import img from "../assets/seminar.JPG";
 import img2 from "../assets/seminar-pat-2.jpg";
 import img3 from "../assets/seminar-pat.jpg";
-import img4 from "../assets/games-seminar.JPG";
 
 const About = () => {
   return (
@@ -29,9 +28,6 @@ const About = () => {
         </SliderContent>
         <SliderContent>
           <img src={img3} alt="" />
-        </SliderContent>
-        <SliderContent>
-          <img src={img4} alt="" />
         </SliderContent>
       </SliderWrapper>
     </Container>
