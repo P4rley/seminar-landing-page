@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import img2 from "../assets/seminar-pat-2.jpg";
-import img3 from "../assets/seminar-pat.jpg";
+// import img2 from "../assets/seminar-pat-2.jpg";
+// import img3 from "../assets/seminar-pat.jpg";
 
 const About = () => {
   return (
@@ -19,12 +19,12 @@ const About = () => {
         </Description>
       </Wrapper>
       <SliderWrapper hasTrack={true}>
-        <SliderContent>
+        {/* <SliderContent>
           <img src={img2} alt="" />
         </SliderContent>
         <SliderContent>
           <img src={img3} alt="" />
-        </SliderContent>
+        </SliderContent> */}
       </SliderWrapper>
     </Container>
   );
