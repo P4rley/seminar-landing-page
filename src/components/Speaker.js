@@ -1,5 +1,5 @@
 import styled from "styled-components";
-// import img from "../assets/Patrick Cheung.png";
+import img from "../assets/Patrick Cheung.png";
 
 const Speaker = () => {
   return (
@@ -16,7 +16,9 @@ const Speaker = () => {
             untuk wilayah China yang lebih besar - Bank Cina Hong Kong (2001).
           </Description>
         </Left>
-        <Right>{/* <Image src={img} alt="Mr. Patrick Cheung" /> */}</Right>
+        <Right>
+          <Image src={img} alt="Mr. Patrick Cheung" />
+        </Right>
       </Wrapper>
     </Container>
   );

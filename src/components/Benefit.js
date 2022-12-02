@@ -1,5 +1,5 @@
 import styled from "styled-components";
-// import img from "../assets/prize-seminar.JPG";
+import img from "../assets/prize-seminar.JPG";
 import icon from "../assets/gold-ingots-gold-svgrepo-com.svg";
 import icon2 from "../assets/money-svgrepo-com.svg";
 import icon3 from "../assets/bag-svgrepo-com.svg";
@@ -11,7 +11,9 @@ const Benefit = () => {
       <Text>Kami menyediakan hadiah-hadiah menarik pada saat seminar.</Text>
 
       <Wrapper>
-        <Left>{/* <Image src={img} alt="" /> */}</Left>
+        <Left>
+          <Image src={img} alt="" />
+        </Left>
         <Right>
           <Prize>
             <Icon src={icon} alt="" />

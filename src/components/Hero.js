@@ -1,10 +1,10 @@
 import styled from "styled-components";
-// import img from "../assets/seminar-pat-2.jpg";
+import img from "../assets/seminar-pat-2.jpg";
 
 const Hero = () => {
   return (
     <Container>
-      {/* <Background src={img} /> */}
+      <Background src={img} />
       <DarkBg></DarkBg>
 
       <Wrapper>

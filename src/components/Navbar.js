@@ -1,10 +1,12 @@
 import styled from "styled-components";
-// import img from "../assets/logo.png";
+import img from "../assets/logo.png";
 
 const Navbar = () => {
   return (
     <Container id="home">
-      {/* <Wrapper><Logo src={img} /></Wrapper> */}
+      <Wrapper>
+        <Logo src={img} />
+      </Wrapper>
       <Links>
         <Link>
           <a href="#home">Home</a>
