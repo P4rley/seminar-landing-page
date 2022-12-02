@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import img from "../assets/seminar.JPG";
 import img2 from "../assets/seminar-pat-2.jpg";
 import img3 from "../assets/seminar-pat.jpg";
 
@@ -20,9 +19,6 @@ const About = () => {
         </Description>
       </Wrapper>
       <SliderWrapper hasTrack={true}>
-        <SliderContent>
-          <img src={img} alt="" />
-        </SliderContent>
         <SliderContent>
           <img src={img2} alt="" />
         </SliderContent>
